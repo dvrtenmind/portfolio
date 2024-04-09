@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "standard";
+  src: url("/resources/fonts/digital_geometric.ttf") format("application/x-font-truetype");
+  font-weight: bold
+}
 .snap {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;

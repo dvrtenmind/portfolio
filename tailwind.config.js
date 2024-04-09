@@ -7,7 +7,16 @@ module.exports = {
     './resources/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'standard': ['standard'],
+      },
+      colors: {
+        'green_dvr' : '#0F9048',
+        'purple_dvr' : '#3738C7',
+        'purple_bg' : '#46469C'
+      }
+    },
   },
   plugins: [require("./plugin")],
 }

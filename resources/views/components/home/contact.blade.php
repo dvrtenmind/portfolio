@@ -1,14 +1,14 @@
 <!-- ====== Contact Section Start -->
-<section id="contact" class="bg-white dark:bg-primary py-20 lg:py-[120px] overflow-hidden relative z-10">
+<section id="contact" class="bg-white  dark:bg-purple_bg py-20 lg:py-[120px] overflow-hidden relative z-10">
   <div class="container">
     <div class="flex flex-wrap lg:justify-between -mx-4">
       <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
         <div class="max-w-[570px] mb-12 lg:mb-0">
           <h2 class="text-dark dark:text-gray-100 mb-6 uppercase font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-            FOR BUSINESS ENQUIRIES
+            CONTACT ME FOR BUSINESS
           </h2>
           <p class="text-base text-body-color dark:text-gray-200 leading-relaxed mb-9">
-            If you feel my experience and skills fits your needs, feel free to contact me.
+            If you think my skills meet your needs, please don't hesitate to contact me.
           </p>
           <div class="flex mb-8 max-w-[370px] w-full">
             <div
@@ -23,9 +23,8 @@
                  justify-center
                  mr-6
                  overflow-hidden
-                 bg-primary bg-opacity-5
-                 text-primary
-                 dark:text-gray-300
+                 bg-green_dvr
+                 text-gray-800
                  rounded
                  "
             >
@@ -41,10 +40,10 @@
               </svg>
             </div>
             <div class="w-full">
-              <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
+              <h4 class="font-bold  text-gray-200 text-xl mb-1">
                 Email Address
               </h4>
-              <p class="text-base text-body-color dark:text-gray-300">thecodeholic@gmail.com</p>
+              <p class="text-base text-gray-300">marcelooc2013@gmail.com</p>
             </div>
           </div>
         </div>
@@ -119,7 +118,7 @@
               </template>
             </div>
             <div>
-              <x-button class="w-full">
+              <x-button class="w-full bg-purple_dvr">
                 Send Message
               </x-button>
             </div>

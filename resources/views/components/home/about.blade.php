@@ -1,5 +1,5 @@
 <!-- ====== About Section Start -->
-<section id="about" class="dark:bg-slate-800 pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+<section id="about" class="dark:bg-purple_bg pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
   <div class="container">
     <div class="flex flex-wrap justify-between items-center -mx-4">
       <div class="w-full lg:w-6/12 px-4">
@@ -35,26 +35,30 @@
       <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
         <div class="mt-10 lg:mt-0">
           <span class="font-semibold text-lg text-primary mb-2 block">
-             <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500">
+             <blockquote class="text-sm text-gray-800 italic py-2 px-3 border-l-4 border-green_dvr">
                  "Everything is achievable with hard work"
              </blockquote>
           </span>
           <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
             About Me
           </h2>
-          <p class="text-base dark:text-gray-400 mb-8">
-            I have been working as a professional software developer for 10+ years. <br />
-            During my career I have worked on various types of projects with various technologies,
-            but very often I feel that I am a junior developer who just started coding. <br />
+          <p class="text-base text-gray-800 mb-8">
+            I started my career in programming in 2017 when I joined the technical IT course at ETEC,
+             and in 2022 I started working professionally in the area, developing automations and
+             scripts in Python to increase productivity and performance in the service
+             I worked in, in addition to developing some tools to internal use in
+             <span class="text-green_dvr font-bold">Laravel, mySql and Python.</span>
           </p>
-          <p class="text-base dark:text-gray-400 mb-8">
-            In 2018 I decided to create a YouTube channel and share my knowledge. My channel is mostly focused on
-            <span class="text-amber-500 font-bold">PHP</span> and <span class="text-amber-500 font-bold">JavaScript</span>. <br />
-            My content is mostly focused on practical examples and projects. <br />
+          <p class="text-base text-gray-800 mb-8">
+            Approximately a year later I was assigned to take care of the company's entire
+            data and network infrastructure, where I had my first contact with
+            <span class="text-green_dvr font-bold">server management</span>
+            and fell in love with the area.
           </p>
-          <x-button-link href="https://youtube.com/thecodeholic" variant="red" target="_blank">
-            View my channel
-          </x-button-link>
+          <p class="text-base text-gray-800 mb-8">
+            I also currently maintain some personal projects that I intend to make open-source
+             available in the future.
+          </p>
         </div>
       </div>
     </div>

@@ -22,40 +22,58 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Tailwind.css', 'Vue3'],
-                'title' => 'Full Stack app with Laravel, Tailwindcss and Vue 3',
-                'image' => url('/img/survey.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-vue-survey'
-            ],
-            [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'E-commerce website with Yii2',
-                'image' => url('/img/yii2-ecommerce.jpg'),
-                'github' => 'https://github.com/thecodeholic/yii2-ecommerce-website'
-            ],
-            [
-                'category' => ['PHP', 'Laravel'],
-                'title' => 'REST API with Laravel 8 and Sanctum',
-                'image' => url('/img/laravel-rest-api.png'),
-                'github' => 'https://github.com/thecodeholic/laravel-image-manipulation-rest-api'
-            ],
-            [
-                'category' => ['PHP'],
-                'title' => 'PHP MVC Framework',
+                'category' => ['Python', 'MongoDB', 'Postgresql'],
+                'title' => 'ChatBot Automatizado para Skype',
                 'image' => url('/img/php-mvc-framework.png'),
-                'github' => 'https://github.com/thecodeholic/php-mvc-framework'
+                'github' => 'https://github.com/dvrtenmind'
             ],
             [
-                'category' => ['Yii2', 'Bootstrap'],
-                'title' => 'YouTube clone with Yii2',
-                'image' => url('/img/yii2-youtube-clone.png'),
-                'github' => 'https://github.com/thecodeholic/Yii2-Youtube-Clone'
+                'category' => ['Laravel', 'PHP', 'mySQL','Setor Elétrico'],
+                'title' => 'Gerador de XML SIGET',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' => 'https://github.com/dvrtenmind'
             ],
             [
-                'category' => ['Yii2', 'VueJs'],
-                'title' => 'Yii2 + VueJs Notes application',
-                'image' => url('/img/yii2-vue-notes.png'),
-                'github' =>  'https://github.com/thecodeholic/vue.js-yii2-notes'
+                'category' => ['Laravel', 'PHP', 'Jetstream'],
+                'title' => 'Sistema Web de Time-Sheets',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' => 'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Python', 'Pandas'],
+                'title' => 'Gerador de Relatório Fotográfico',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' => 'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Python'],
+                'title' => 'Ferramentas Diversas - Imagens e Arquivos',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' => 'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Python', 'Setor Elétrico'],
+                'title' => 'Ferramentas Diversas - Setor Elétrico',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' => 'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Server', 'PFSense'],
+                'title' => 'Firewall, VPN e Infraestrutura de Rede',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' =>  'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Server', 'TrueNas'],
+                'title' => 'Servidor de Dados',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' =>  'https://github.com/dvrtenmind'
+            ],
+            [
+                'category' => ['Server', 'ProxMox'],
+                'title' => 'Ambiente de Virtualização de Servidores',
+                'image' => url('/img/php-mvc-framework.png'),
+                'github' =>  'https://github.com/dvrtenmind'
             ],
         ];
 
